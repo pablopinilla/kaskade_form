@@ -28,7 +28,7 @@ label {
     border: none;
     font-size: 16px;
     color: white;
-    background-color: #BF5D39;
+    background-color: #4C36D9;
     border-radius: 6px;
 }
 .submit{
@@ -37,7 +37,7 @@ label {
     border: none;
     font-size: 16px;
     color: white;
-    background-color: #BF5D39;
+    background-color: #4C36D9;
     border-radius: 6px;
     width: 100%;
     padding: 10px;
@@ -146,12 +146,28 @@ input {
 
 input:focus {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border: solid #BF5D39 0.1rem;
+    border: solid #4C36D9 0.1rem;
     outline: none;
 }
 
 button:hover {
-    background-color: #4C36D9;
+    background-color: #BF5D39;
+}
+
+.errorDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.error {
+    color: #BF5D39;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
 }
 
 @media screen and (max-width: 500px) {
