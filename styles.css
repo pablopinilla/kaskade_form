@@ -1,0 +1,161 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    width: 400px;
+    height: 200px;
+    color: white;
+    font-size: 62px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+label {
+    margin: 4px;
+    color: white;
+}
+.navBtn {
+    align-self: center;
+    padding: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #BF5D39;
+    border-radius: 6px;
+}
+.submit{
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #BF5D39;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1d1d;
+    padding: 20px;
+}
+
+.navLeft,
+.navRight {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.bgImg {
+    background-image: url(images/milad-fakurian-bexwsdM5BCw-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.imgCont {
+    width: 900px;
+    height: 900px;
+    overflow: hidden;
+}
+.hands {
+    position: relative;
+    left: -345px;
+    width: 1000px;
+    height: 620px;
+    align-self: flex-start;
+    object-fit: cover;
+    margin: 0;
+}
+
+.formContainer {
+    display: flex;
+}
+
+.form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-grow: 2;
+    border-radius: 7px;
+    background-color: rgba(27, 27, 27, 0.5);
+    flex-direction: column;
+    padding: 20px;
+    width: 1100px;
+    margin: 90px 100px 600px 0px;
+    padding: 55px;
+}
+
+
+.formFlex {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+#first-name,
+#last-name {
+    flex-grow: 1;
+}
+
+#email,
+#phone,
+#password,
+#re-password {
+    width: 100%;
+}
+
+input {
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 6px;
+    border: solid rgb(100, 100, 100) 0.1rem;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+.formFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+input:focus {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: solid #BF5D39 0.1rem;
+    outline: none;
+}
+
+button:hover {
+    background-color: #4C36D9;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    display: none;
+  }
+}
